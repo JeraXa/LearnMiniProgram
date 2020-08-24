@@ -1,14 +1,33 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/category/category"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "My Mini Program",
+    "backgroundColor": "#ff00ff",
+    "enablePullDownRefresh": false,
+    "backgroundTextStyle": "dark"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "selectedColor": "#1ff111",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "心动",
+        "iconPath": "assets/icon/xihuan.png",
+        "selectedIconPath": "assets/icon/xihuan.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "用户",
+        "iconPath": "assets/icon/yonghu.png",
+        "selectedIconPath": "assets/icon/yonghu.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap6.json"
 }

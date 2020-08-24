@@ -33,6 +33,24 @@ App({
       }
     })
   },
+  // onShow(options) {
+  //   //1.判断小程序的进入场景
+  //   console.log(options)
+  //   switch(options.scene){
+  //     case 1001:
+  //       break;
+  //     case 1005:
+  //       break;
+  // },
+
+    //2获取用户的信息，并且获取到用户信息后，将用户信息传递给服务器
+    // wx.getUserInfo({
+    //   success: function(res){
+    //     console.log(res)
+    //   }
+    // })
+  // },
+  
   globalData: {
     userInfo: null
   }

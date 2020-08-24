@@ -19,3 +19,8 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.AvatarUrl{
+  /* height: 50px;
+  width: 60px; */
+}
