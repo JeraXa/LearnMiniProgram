@@ -1,0 +1,16 @@
+<!--pages/view/view.wxml-->
+<!-- 1.view的基本使用  块级元素，独占一行-->
+<view class='box'>hahaha</view>
+<view>hahaha</view>
+<!-- 2.hover-class :当用户按下组件时，显示样式 -->
+<view class="box1" hover-class="hover-view" hover-stay-time="500">hahaha</view>
+
+<!-- 3.hover-class :当用户按下组件时，显示样式 -->
+<view class>
+<view class="box1" 
+  hover-class="hover-view"
+  hover-stay-time="500">
+  hahaha
+  </view>
+
+</view>
