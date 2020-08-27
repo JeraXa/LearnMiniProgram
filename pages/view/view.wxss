@@ -1,0 +1,15 @@
+/* pages/view/view.wxss */
+.box{
+  background-color: red;
+}
+
+.box1{
+  width: 120px;
+  height: 100px;
+  background-color: peru;
+}
+
+.hover-view{
+  background-color: purple;
+  font-size: 30px;
+}
