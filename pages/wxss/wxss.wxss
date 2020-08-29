@@ -1,0 +1,38 @@
+/* pages/wxss/wxss.wxss */
+/* @import '路径'  导入样式*/
+@import './style/box.wxss';
+@import './style/content.wxss';
+@import './style/weui-searchbar.wxss';
+
+.searchbar-result{margin-top:0;font-size:14px}.searchbar-result .weui-cell__bd{padding:2px 0 2px 20px;color:var(--weui-FG-1)}.searchbar-result:before{display:none}
+
+.box{
+  color: blue;
+  font-size: 50px;
+}
+
+.content{
+  background: purple !important;
+}
+
+/* .box1{
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+
+.box2{
+  width: 200rpx;
+  height: 200rpx;
+  background: green;
+} */
+
+/* .content1{
+  font-size: 32px;
+}
+
+.content2{
+  font-size: 64rpx;
+} */
+
+
